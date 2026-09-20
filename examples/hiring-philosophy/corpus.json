@@ -1,0 +1,8 @@
+[
+  {"entity_id":"kestrel","entity_name":"Kestrel Labs","domain":"kestrel.example","source_url":"https://kestrel.example/careers","source_kind":"careers","text":"We hire curious builders who learn quickly, adapt to unfamiliar problems and share what they discover."},
+  {"entity_id":"kestrel","entity_name":"Kestrel Labs","domain":"kestrel.example","source_url":"https://kestrel.example/culture","source_kind":"culture","text":"People take ownership of outcomes and act with autonomy instead of waiting for permission."},
+  {"entity_id":"harbour","entity_name":"Harbour Systems","domain":"harbour.example","source_url":"https://harbour.example/jobs","source_kind":"jobs","text":"Candidates should have five years of experience with Python, SQL and cloud infrastructure."},
+  {"entity_id":"harbour","entity_name":"Harbour Systems","domain":"harbour.example","source_url":"https://harbour.example/culture","source_kind":"culture","text":"Managers define tasks and review delivery against a detailed operating plan."},
+  {"entity_id":"fieldnote","entity_name":"Fieldnote","domain":"fieldnote.example","source_url":"https://fieldnote.example/about","source_kind":"culture","text":"Small teams own customer problems from discovery through delivery and can change the plan when evidence changes."},
+  {"entity_id":"fieldnote","entity_name":"Fieldnote","domain":"fieldnote.example","source_url":"https://fieldnote.example/careers","source_kind":"careers","text":"We value fast learners who are comfortable making progress before every detail is known."}
+]

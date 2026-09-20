@@ -1,0 +1,19 @@
+{
+  "name": "Hiring Philosophy",
+  "research_question": "Which companies publicly describe hiring for ownership, learning speed and high-agency behaviour?",
+  "sources": [
+    {"kind": "careers", "locator": "/careers and ATS pages", "rationale": "Direct statements about who the company hires and how it evaluates candidates."},
+    {"kind": "culture", "locator": "/culture, /values and /about pages", "rationale": "First-party evidence about expected behaviours and working norms."},
+    {"kind": "jobs", "locator": "Current role descriptions", "rationale": "Repeated candidate expectations can reveal the practical hiring philosophy."}
+  ],
+  "signals": [
+    {"id": "ownership", "name": "Ownership", "query": "people take ownership and act with autonomy", "source_kinds": ["careers", "culture", "jobs"], "threshold": 0.15},
+    {"id": "learning_speed", "name": "Learning speed", "query": "curious people learn quickly and adapt", "source_kinds": ["careers", "culture"], "threshold": 0.15},
+    {"id": "high_agency", "name": "High agency", "query": "builders act without waiting for permission", "source_kinds": ["careers", "culture", "jobs"], "threshold": 0.15}
+  ],
+  "qualification": {
+    "minimum_signals": 2,
+    "minimum_average_score": 0.2,
+    "require_any": ["ownership", "high_agency"]
+  }
+}

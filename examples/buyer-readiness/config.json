@@ -1,0 +1,19 @@
+{
+  "name": "Governed Workflow Readiness",
+  "research_question": "Which organisations show first-party evidence of needing governed workflow automation?",
+  "sources": [
+    {"kind": "jobs", "locator": "Operations and transformation job descriptions", "rationale": "Hiring language reveals recurring work and coordination gaps."},
+    {"kind": "operations", "locator": "Service and operations pages", "rationale": "Operating-model language reveals distributed teams and workflow complexity."},
+    {"kind": "trust", "locator": "Security and compliance pages", "rationale": "Control requirements reveal where ungoverned automation will fail."}
+  ],
+  "signals": [
+    {"id": "distributed_ops", "name": "Distributed operations", "query": "remote global operations teams coordinate work", "source_kinds": ["jobs", "operations"], "threshold": 0.15},
+    {"id": "manual_work", "name": "Manual workflow load", "query": "manual repetitive spreadsheet workflow", "source_kinds": ["jobs", "operations"], "threshold": 0.15},
+    {"id": "governance", "name": "Governance requirement", "query": "approval audit compliance governance", "source_kinds": ["trust", "operations"], "threshold": 0.15}
+  ],
+  "qualification": {
+    "minimum_signals": 2,
+    "minimum_average_score": 0.18,
+    "require_any": ["manual_work", "governance"]
+  }
+}

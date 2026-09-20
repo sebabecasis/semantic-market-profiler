@@ -1,0 +1,7 @@
+[
+  {"entity_id":"northstar","entity_name":"Northstar Services","domain":"northstar.example","source_url":"https://northstar.example/operations","source_kind":"operations","text":"Our remote operations teams coordinate global work across regions using manual spreadsheets and repeated handoffs."},
+  {"entity_id":"northstar","entity_name":"Northstar Services","domain":"northstar.example","source_url":"https://northstar.example/trust","source_kind":"trust","text":"Every material change requires approval, a complete audit trail and compliance review."},
+  {"entity_id":"willow","entity_name":"Willow Studio","domain":"willow.example","source_url":"https://willow.example/about","source_kind":"operations","text":"A small co-located studio works directly with a handful of clients."},
+  {"entity_id":"harbour","entity_name":"Harbour Logistics","domain":"harbour-logistics.example","source_url":"https://harbour-logistics.example/jobs/ops","source_kind":"jobs","text":"The operations analyst will replace repetitive spreadsheet reporting across a distributed workforce."},
+  {"entity_id":"harbour","entity_name":"Harbour Logistics","domain":"harbour-logistics.example","source_url":"https://harbour-logistics.example/trust","source_kind":"trust","text":"Customer workflows must retain approval records for regulatory audit and governance."}
+]
