@@ -1,5 +1,7 @@
 # Semantic Market Profiler
 
+For agent-assisted operation, start with [AGENTS.md](AGENTS.md). Claude Code loads the same guide through [CLAUDE.md](CLAUDE.md).
+
 Turn an open-ended market question into an operator-reviewed source plan, evidence-backed semantic profiles and inspectable post-qualification.
 
 This is a generalisation of a working Hiring Philosophy Profiler. Hiring philosophy remains one supplied configuration rather than the product boundary.
