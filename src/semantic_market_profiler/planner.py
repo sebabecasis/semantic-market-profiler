@@ -5,11 +5,13 @@ from datetime import datetime, timezone
 from typing import Any
 
 from .config import signals_from, sources_from
+from .providers import digest
 
 
 def make_source_plan(config: dict[str, Any], *, approved: bool = False) -> dict[str, Any]:
     return {
         "project": config["name"],
+        "config_hash": digest(config),
         "research_question": config["research_question"],
         "status": "approved" if approved else "pending_operator_review",
         "created_at": datetime.now(timezone.utc).isoformat(),

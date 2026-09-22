@@ -30,6 +30,6 @@ Hiring philosophy is now one configuration. The second example looks for evidenc
 
 ## Provider boundaries
 
-The safe demo starts from fixture passages and uses a deterministic local encoder. Production adapters can replace collection, LLM extraction and embeddings without changing the plan, evidence, qualification or query contracts.
+The safe demo starts from fixture passages and uses a deterministic local encoder. collect.py now executes a hash-approved source inventory through Firecrawl, optionally selecting verbatim passages via OpenRouter. providers.OpenAIEncoder supplies normalized, cached production vectors. The pipeline snapshots config/corpus and provider settings, enforces reviewed collection identities/URLs/kinds and includes no_evidence entities. query uses the run's saved encoder settings.
 
 The system deliberately requires explicit plan approval. Source selection and enrichment logic are proposed working objects, not hidden model behaviour.

@@ -46,6 +46,6 @@ Each run writes the reviewed source plan, exact evidence, entity profiles and a 
 
 ## Honest boundary
 
-The repository demonstrates the generalised control and evidence loop over safe fixture passages. The deterministic local encoder is a demo adapter. Raw web collection, LLM passage extraction and a production embedding provider are explicit integration boundaries, not silently simulated capabilities.
+The safe fixtures use a deterministic demo encoder. The [live workflow](docs/live-workflow.md) implements reviewed Firecrawl collection, optional verbatim LLM extraction, OpenAI embeddings, hash-bound approval and explicit missing-evidence coverage. Provider contracts are mock-tested; real account acceptance and threshold calibration remain necessary. The agent designs the source inventory and signals, rather than an autonomous discovery crawler.
 
 See [`docs/architecture.md`](docs/architecture.md) for the design and provenance model.
